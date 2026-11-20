@@ -1,9 +1,9 @@
 cask "xrose" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.2.0"
-  sha256 arm:   "4d81c9109b65835564b7fef6b7fb3d0c159f850c7db115667740dfef8560da40",
-         intel: "dae4e3522da9bd90132238223034cea5e6a30f01e40beeda89593a5755bd5d4f"
+  version "0.3.0"
+  sha256 arm:   "307155f1b210a9649fd07b99e0dba007c73120a4575630d2f609a9dec91501fa",
+         intel: "bbd9ede2bf2f15aad878732846be423af5a9fb3baa36eb50b04b9dfc4d41b68d"
 
   url "https://github.com/zuoxinyu/xrose/releases/download/v#{version}/Xrose-#{version}-macos-#{arch}-full.dmg"
   name "Xrose"
